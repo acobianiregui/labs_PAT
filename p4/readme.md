@@ -92,7 +92,7 @@ El fetch devuelve el siguiente json:
 2. Obtener una carrera 
 
 ```sh
-curl -X GET "http://tudominio.com/telecomaster/carreras/nombre/GITT" | jq
+curl -X GET "http://localhost:8080/telecomaster/carreras/nombre/GITT" | jq
 
 //El jq es para que devuelva "bonito" el json
 ```
